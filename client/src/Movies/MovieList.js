@@ -34,9 +34,12 @@ export default class MovieList extends Component {
 }
 
 function MovieDetails({ movie }) {
-	const { id } = movie;
+  const { id } = movie;
+  // console.log(id);
 	const linkedMovie = '/movies/' + id;
-	// console.log(title, director, metascore, stars, id);
+  // console.log(title, director, metascore, stars, id);
+  // console.log(movie);
+  
 	return (
 		<Link to={linkedMovie}>
 			<MovieCard props={movie} />

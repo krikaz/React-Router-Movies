@@ -47,6 +47,7 @@ export default class Movie extends Component {
 
     // const { title, director, metascore, stars } = this.state.movie;
     // console.log(this.state.movie);
+    console.log(this.props);
 
     return (
       <MovieCard props={this.state.movie} />
