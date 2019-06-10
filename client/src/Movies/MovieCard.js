@@ -5,7 +5,8 @@ const MovieCard = props => {
 	// const test = props.saveMovie;
 	// console.log(props);
 	// console.log(test);
-	// console.log(props.props.title);
+  // console.log(props.props.title);
+  
 	return (
 		<div className="save-wrapper">
 			<div className="movie-card">
